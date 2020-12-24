@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-FTS5/Pods-FTS5-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework
+${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework

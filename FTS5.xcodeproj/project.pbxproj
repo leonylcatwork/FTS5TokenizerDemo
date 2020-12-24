@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F6A2E2E108333EDDFB0EF53 /* Pods_FTS5Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AA4F5DFA80A853E2CE18FE /* Pods_FTS5Tests.framework */; };
 		354F166E25942016005F55D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F166D25942016005F55D4 /* AppDelegate.swift */; };
 		354F167025942016005F55D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F166F25942016005F55D4 /* SceneDelegate.swift */; };
 		354F167225942016005F55D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F167125942016005F55D4 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		354F167A25942017005F55D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354F167825942017005F55D4 /* LaunchScreen.storyboard */; };
 		354F168525942017005F55D4 /* FTS5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F168425942017005F55D4 /* FTS5Tests.swift */; };
 		354F169025942017005F55D4 /* FTS5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F168F25942017005F55D4 /* FTS5UITests.swift */; };
+		354F16AB25942104005F55D4 /* FTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F16AA25942104005F55D4 /* FTS.swift */; };
+		354F16B22594224B005F55D4 /* FTSTokenizerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 354F16B12594224B005F55D4 /* FTSTokenizerBridge.m */; };
+		E994ED19A8AA7B43ECCCA56C /* Pods_FTS5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087FFB00A2ED764248F29FFD /* Pods_FTS5.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		087FFB00A2ED764248F29FFD /* Pods_FTS5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTS5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AA4F5DFA80A853E2CE18FE /* Pods_FTS5Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTS5Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D372A6DF47DFB223B7E133A /* Pods-FTS5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTS5.debug.xcconfig"; path = "Target Support Files/Pods-FTS5/Pods-FTS5.debug.xcconfig"; sourceTree = "<group>"; };
 		354F166A25942016005F55D4 /* FTS5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTS5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		354F166D25942016005F55D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		354F166F25942016005F55D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		354F168B25942017005F55D4 /* FTS5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTS5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		354F168F25942017005F55D4 /* FTS5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTS5UITests.swift; sourceTree = "<group>"; };
 		354F169125942017005F55D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354F16AA25942104005F55D4 /* FTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTS.swift; sourceTree = "<group>"; };
+		354F16AF2594224B005F55D4 /* FTS5-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTS5-Bridging-Header.h"; sourceTree = "<group>"; };
+		354F16B02594224B005F55D4 /* FTSTokenizerBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSTokenizerBridge.h; sourceTree = "<group>"; };
+		354F16B12594224B005F55D4 /* FTSTokenizerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSTokenizerBridge.m; sourceTree = "<group>"; };
+		4272BD9D92E75EEF2979CD6E /* Pods-FTS5Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTS5Tests.release.xcconfig"; path = "Target Support Files/Pods-FTS5Tests/Pods-FTS5Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C00FA148DDA9FA12BC9C4DC /* Pods-FTS5Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTS5Tests.debug.xcconfig"; path = "Target Support Files/Pods-FTS5Tests/Pods-FTS5Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD91E3357155A8D485A0EB3C /* Pods-FTS5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTS5.release.xcconfig"; path = "Target Support Files/Pods-FTS5/Pods-FTS5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E994ED19A8AA7B43ECCCA56C /* Pods_FTS5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6A2E2E108333EDDFB0EF53 /* Pods_FTS5Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +99,8 @@
 				354F168325942017005F55D4 /* FTS5Tests */,
 				354F168E25942017005F55D4 /* FTS5UITests */,
 				354F166B25942016005F55D4 /* Products */,
+				BB96712A030355AE5D55ABB8 /* Pods */,
+				E9D73E32794D6A245787FD01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +124,9 @@
 				354F167625942017005F55D4 /* Assets.xcassets */,
 				354F167825942017005F55D4 /* LaunchScreen.storyboard */,
 				354F167B25942017005F55D4 /* Info.plist */,
+				354F16AA25942104005F55D4 /* FTS.swift */,
+				354F16AF2594224B005F55D4 /* FTS5-Bridging-Header.h */,
+				354F16B62594229B005F55D4 /* tokenizer */,
 			);
 			path = FTS5;
 			sourceTree = "<group>";
@@ -128,6 +149,35 @@
 			path = FTS5UITests;
 			sourceTree = "<group>";
 		};
+		354F16B62594229B005F55D4 /* tokenizer */ = {
+			isa = PBXGroup;
+			children = (
+				354F16B02594224B005F55D4 /* FTSTokenizerBridge.h */,
+				354F16B12594224B005F55D4 /* FTSTokenizerBridge.m */,
+			);
+			path = tokenizer;
+			sourceTree = "<group>";
+		};
+		BB96712A030355AE5D55ABB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D372A6DF47DFB223B7E133A /* Pods-FTS5.debug.xcconfig */,
+				DD91E3357155A8D485A0EB3C /* Pods-FTS5.release.xcconfig */,
+				4C00FA148DDA9FA12BC9C4DC /* Pods-FTS5Tests.debug.xcconfig */,
+				4272BD9D92E75EEF2979CD6E /* Pods-FTS5Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9D73E32794D6A245787FD01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				087FFB00A2ED764248F29FFD /* Pods_FTS5.framework */,
+				24AA4F5DFA80A853E2CE18FE /* Pods_FTS5Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 354F169425942017005F55D4 /* Build configuration list for PBXNativeTarget "FTS5" */;
 			buildPhases = (
+				B757062C96C79D6D7BD9C24D /* [CP] Check Pods Manifest.lock */,
 				354F166625942016005F55D4 /* Sources */,
 				354F166725942016005F55D4 /* Frameworks */,
 				354F166825942016005F55D4 /* Resources */,
+				45D6A5796129DCF5E391729D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 354F169725942017005F55D4 /* Build configuration list for PBXNativeTarget "FTS5Tests" */;
 			buildPhases = (
+				AE644547B29F2B8F2E7A11E5 /* [CP] Check Pods Manifest.lock */,
 				354F167C25942017005F55D4 /* Sources */,
 				354F167D25942017005F55D4 /* Frameworks */,
 				354F167E25942017005F55D4 /* Resources */,
@@ -195,6 +248,7 @@
 				TargetAttributes = {
 					354F166925942016005F55D4 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					354F167F25942017005F55D4 = {
 						CreatedOnToolsVersion = 12.3;
@@ -253,12 +307,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45D6A5796129DCF5E391729D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTS5/Pods-FTS5-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTS5/Pods-FTS5-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FTS5/Pods-FTS5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE644547B29F2B8F2E7A11E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTS5Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B757062C96C79D6D7BD9C24D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTS5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		354F166625942016005F55D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354F16B22594224B005F55D4 /* FTSTokenizerBridge.m in Sources */,
 				354F167225942016005F55D4 /* ViewController.swift in Sources */,
+				354F16AB25942104005F55D4 /* FTS.swift in Sources */,
 				354F166E25942016005F55D4 /* AppDelegate.swift in Sources */,
 				354F167025942016005F55D4 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,9 +553,11 @@
 		};
 		354F169525942017005F55D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D372A6DF47DFB223B7E133A /* Pods-FTS5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 767NHGRHZ6;
 				INFOPLIST_FILE = FTS5/Info.plist;
@@ -445,6 +567,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.maimemo.leon.FTS5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FTS5/FTS5-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,9 +576,11 @@
 		};
 		354F169625942017005F55D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD91E3357155A8D485A0EB3C /* Pods-FTS5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 767NHGRHZ6;
 				INFOPLIST_FILE = FTS5/Info.plist;
@@ -464,6 +590,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.maimemo.leon.FTS5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FTS5/FTS5-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +598,7 @@
 		};
 		354F169825942017005F55D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C00FA148DDA9FA12BC9C4DC /* Pods-FTS5Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +621,7 @@
 		};
 		354F169925942017005F55D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4272BD9D92E75EEF2979CD6E /* Pods-FTS5Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
